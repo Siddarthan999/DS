@@ -143,6 +143,7 @@ print(df.info())
 print(df.dtypes)
 print(df.isnull().sum())
 import matplotlib.pyplot as plt
+import numpy as np
 plt.boxplot(data['price'])
 plt.show()
 Q1 = data['price'].quantile(0.25)
